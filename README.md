@@ -1,4 +1,4 @@
-# 🐝 Bee Cursor
+# 🐝 Bee-Cursor
 
 Ein minimalistischer Bienen‑Cursor für Web‑ und Desktop‑Anwendungen.
 Leichtgewichtig, einfach zu integrieren und flexibel anpassbar – bringt ein wenig „Buzz“ in deine Projekte.
