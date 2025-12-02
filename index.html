@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Ensures proper scaling on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load CSS first so the page renders styled immediately -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Defer ensures the JS is executed after HTML parsing -->
+    <script src="script.js" defer></script>
+
+    <title>Beetry</title>
+</head>
+
+<body>
+    <!-- Interactive area where the bee follows the mouse cursor -->
+    <div id="board">
+
+        <!-- Bee graphic that visually follows the pointer -->
+        <img
+            id="bee"
+            src="./img/honey-clipart-lg.png"
+            alt="Bee following the mouse pointer"
+            draggable="false"  <!-- prevents accidental drag selection -->
+        >
+    </div>
+</body>
+
+</html>

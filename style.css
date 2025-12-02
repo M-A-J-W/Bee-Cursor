@@ -1,0 +1,13 @@
+/* Full-height area where mouse movement is tracked */
+#board {
+  min-height: 100vh; /* Ensures the board spans the entire viewport height */
+}
+
+/* Bee image that follows the cursor */
+#bee {
+  position: absolute; /* Allows free placement based on JS-controlled coordinates */
+  width: 50px;        /* Fixed size for consistent appearance */
+  height: 50px;
+  z-index: 20;        /* Ensures the bee stays above background elements */
+  pointer-events: none; /* Prevents the bee from blocking mouse events */
+}
